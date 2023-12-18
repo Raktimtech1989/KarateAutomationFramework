@@ -1,0 +1,1265 @@
+19:20:19.565 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:20:20.950 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:21.364 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:20:22.086 [main] DEBUG com.intuit.karate - response time in milliseconds: 712
+1 < 200
+1 < Date: Wed, 13 Dec 2023 13:50:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701144026&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=EsCCJSqas1ABG1GYpMjmoX1YJoYYXcHpYNKU6SS0IjY%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701144026&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=EsCCJSqas1ABG1GYpMjmoX1YJoYYXcHpYNKU6SS0IjY%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 998
+1 < X-Ratelimit-Reset: 1701144043
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 6760
+1 < Server: cloudflare
+1 < CF-RAY: 834eacfc1825548f-DEL
+1 < alt-svc: h3=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+19:20:22.180 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.19)
+2 > Accept-Encoding: gzip,deflate
+
+
+19:20:22.570 [main] DEBUG com.intuit.karate - response time in milliseconds: 388
+2 < 200
+2 < Date: Wed, 13 Dec 2023 13:50:22 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1701954297&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=oa1haDdLTD5cRut8ePL9ab9GhIa%2FTfsgMAjwuLZsTA0%3D"}]}
+2 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1701954297&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=oa1haDdLTD5cRut8ePL9ab9GhIa%2FTfsgMAjwuLZsTA0%3D
+2 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1701954335
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 3175
+2 < Server: cloudflare
+2 < CF-RAY: 834eacff3f405516-DEL
+2 < alt-svc: h3=":443"; ma=86400
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+19:20:22.633 [main] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:22.740 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Test User","username":"testuser","email":"test@user.com","address":{"street":"Has No Name","suite":"Apt. 123","city":"Electri","zipcode":"54321-6789"}}
+
+19:20:23.919 [main] DEBUG com.intuit.karate - response time in milliseconds: 1178
+1 < 201
+1 < Date: Wed, 13 Dec 2023 13:50:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702475423&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=c93edpOrKeg7eCjXagV4tvtq6HHWuZxIM5bak5fBYEU%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702475423&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=c93edpOrKeg7eCjXagV4tvtq6HHWuZxIM5bak5fBYEU%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1702475476
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 834ead02fa735484-DEL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "name": "Test User",
+  "username": "testuser",
+  "email": "test@user.com",
+  "address": {
+    "street": "Has No Name",
+    "suite": "Apt. 123",
+    "city": "Electri",
+    "zipcode": "54321-6789"
+  },
+  "id": 11
+}
+
+19:20:23.939 [main] INFO  com.intuit.karate - [print] created id is:  11 
+21:18:25.090 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:18:26.519 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:18:26.969 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:18:27.426 [main] DEBUG com.intuit.karate - response time in milliseconds: 450
+1 < 200
+1 < Date: Wed, 13 Dec 2023 15:48:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702405169&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=gNCWsDzq4XtMIfq1h4ng6DXrw71LH%2FW4ug%2Fp4y2WCek%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702405169&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=gNCWsDzq4XtMIfq1h4ng6DXrw71LH%2FW4ug%2Fp4y2WCek%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 2773
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 834f59f7ad8f8528-BOM
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:18:27.497 [main] INFO  com.intuit.karate - [print] {
+  "page": 2,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 7,
+      "email": "michael.lawson@reqres.in",
+      "first_name": "Michael",
+      "last_name": "Lawson",
+      "avatar": "https://reqres.in/img/faces/7-image.jpg"
+    },
+    {
+      "id": 8,
+      "email": "lindsay.ferguson@reqres.in",
+      "first_name": "Lindsay",
+      "last_name": "Ferguson",
+      "avatar": "https://reqres.in/img/faces/8-image.jpg"
+    },
+    {
+      "id": 9,
+      "email": "tobias.funke@reqres.in",
+      "first_name": "Tobias",
+      "last_name": "Funke",
+      "avatar": "https://reqres.in/img/faces/9-image.jpg"
+    },
+    {
+      "id": 10,
+      "email": "byron.fields@reqres.in",
+      "first_name": "Byron",
+      "last_name": "Fields",
+      "avatar": "https://reqres.in/img/faces/10-image.jpg"
+    },
+    {
+      "id": 11,
+      "email": "george.edwards@reqres.in",
+      "first_name": "George",
+      "last_name": "Edwards",
+      "avatar": "https://reqres.in/img/faces/11-image.jpg"
+    },
+    {
+      "id": 12,
+      "email": "rachel.howell@reqres.in",
+      "first_name": "Rachel",
+      "last_name": "Howell",
+      "avatar": "https://reqres.in/img/faces/12-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+21:18:27.505 [main] INFO  com.intuit.karate - [print] {
+  "page": 2,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 7,
+      "email": "michael.lawson@reqres.in",
+      "first_name": "Michael",
+      "last_name": "Lawson",
+      "avatar": "https://reqres.in/img/faces/7-image.jpg"
+    },
+    {
+      "id": 8,
+      "email": "lindsay.ferguson@reqres.in",
+      "first_name": "Lindsay",
+      "last_name": "Ferguson",
+      "avatar": "https://reqres.in/img/faces/8-image.jpg"
+    },
+    {
+      "id": 9,
+      "email": "tobias.funke@reqres.in",
+      "first_name": "Tobias",
+      "last_name": "Funke",
+      "avatar": "https://reqres.in/img/faces/9-image.jpg"
+    },
+    {
+      "id": 10,
+      "email": "byron.fields@reqres.in",
+      "first_name": "Byron",
+      "last_name": "Fields",
+      "avatar": "https://reqres.in/img/faces/10-image.jpg"
+    },
+    {
+      "id": 11,
+      "email": "george.edwards@reqres.in",
+      "first_name": "George",
+      "last_name": "Edwards",
+      "avatar": "https://reqres.in/img/faces/11-image.jpg"
+    },
+    {
+      "id": 12,
+      "email": "rachel.howell@reqres.in",
+      "first_name": "Rachel",
+      "last_name": "Howell",
+      "avatar": "https://reqres.in/img/faces/12-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+21:18:27.515 [main] INFO  com.intuit.karate - [print] Lawson 
+21:18:27.586 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:18:27.593 [main] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:18:27.752 [main] DEBUG com.intuit.karate - response time in milliseconds: 156
+1 < 200
+1 < Date: Wed, 13 Dec 2023 15:48:27 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1702405169&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=gNCWsDzq4XtMIfq1h4ng6DXrw71LH%2FW4ug%2Fp4y2WCek%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1702405169&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=gNCWsDzq4XtMIfq1h4ng6DXrw71LH%2FW4ug%2Fp4y2WCek%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 2773
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 834f59f9b9a6846b-BOM
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:21:35.922 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:21:38.136 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:21:38.909 [main] INFO  com.intuit.karate - [print] JessiaSchneider@gmail.com 
+21:21:39.399 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 9114ef137e7ad964937982da2ee6b7f27805a47d6c8a9f2e4c805c99997ce840
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"name":"raktim","email":"rs54sessehhsssfxsxfs646@gmail.com","gender":"male","status":"active"}
+
+21:21:40.478 [main] DEBUG com.intuit.karate - response time in milliseconds: 1064
+1 < 422
+1 < Date: Wed, 13 Dec 2023 15:51:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 54
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 88
+1 < x-ratelimit-reset: 1
+1 < x-request-id: dd9bf0b1-751c-4871-a276-7aa4241c6a5e
+1 < x-runtime: 0.103674
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LvZSd7yLxPKWBlMSz6H%2BfWly1X3oclXkd7ssm1w65SpcoTOqOpe7tGGay5Tolnk8yphzNN3VZGJXiz8pVNWw3wOfRy7ffCrxujzX0j9tdNA2iQmmVzpI9zsggFYdggo%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 834f5eabfc08a196-SIN
+1 < alt-svc: h3=":443"; ma=86400
+[{"field":"email","message":"has already been taken"}]
+
+21:21:40.532 [main] ERROR com.intuit.karate - classpath:examples/users/postapi2.feature:28
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 1064, url: https://gorest.co.in/public/v2/users, response: 
+[{"field":"email","message":"has already been taken"}]
+classpath:examples/users/postapi2.feature:28
+21:21:40.600 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:21:40.622 [main] INFO  com.intuit.karate - [print] JulioKuphal@gmail.com 
+21:21:40.664 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 9114ef137e7ad964937982da2ee6b7f27805a47d6c8a9f2e4c805c99997ce840
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"name":"Julio Kuphal","email":"JulioKuphal@gmail.com","gender":"male","status":"active"}
+
+21:21:40.973 [main] DEBUG com.intuit.karate - response time in milliseconds: 308
+1 < 201
+1 < Date: Wed, 13 Dec 2023 15:51:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 102
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"936751f062cc7f3f3feba866b926188f"
+1 < location: https://gorest.co.in/public/v2/users/5830509
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 2
+1 < x-request-id: b211a1ac-2f29-4753-9a2f-3860fb3614df
+1 < x-runtime: 0.114846
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Qe2oK6dL04ta4tkYuMRnIokcgk9HOefbB1PVEHmcQxonabB3unzEwmZYrTP88jYN65D%2F73aOUafVD1NfR3wSE%2Bp2F05vwFmWq7wle4qts86UmpPf0kwc%2BeCrFkpAAqo%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 834f5eb07cd88501-BOM
+1 < alt-svc: h3=":443"; ma=86400
+{"id":5830509,"name":"Julio Kuphal","email":"JulioKuphal@gmail.com","gender":"male","status":"active"}
+
+21:21:41.065 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:21:41.079 [main] INFO  com.intuit.karate - [print] EliaHills@gmail.com 
+21:21:41.111 [main] INFO  com.intuit.karate - [print] {
+  "gender": "male",
+  "status": "active",
+  "name": "Elia Hills",
+  "email": "EliaHills@gmail.com"
+}
+ 
+21:21:41.118 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v2/users
+1 > Authorization: Bearer 9114ef137e7ad964937982da2ee6b7f27805a47d6c8a9f2e4c805c99997ce840
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 85
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"gender":"male","status":"active","name":"Elia Hills","email":"EliaHills@gmail.com"}
+
+21:21:41.415 [main] DEBUG com.intuit.karate - response time in milliseconds: 294
+1 < 201
+1 < Date: Wed, 13 Dec 2023 15:51:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 98
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"06d671515a9966f6308b205d71a2abc5"
+1 < location: https://gorest.co.in/public/v2/users/5830510
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 88
+1 < x-ratelimit-reset: 2
+1 < x-request-id: 01a603a5-402b-4d2e-a2e0-11537a461ffc
+1 < x-runtime: 0.060604
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wfUMf%2FBfyfLvcfmykKmYxtiuQV0UIg%2FakIxh%2FQMzW%2BAuTMgKjZRdbFunGL%2FNF%2BBpHJm6EO5uMRTxw4voeqOfo%2B4nHMKwAUIkIQeQ%2FBMUETP33DcvsBYSEmUi5WaW3gA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 834f5eb33ffd8589-BOM
+1 < alt-svc: h3=":443"; ma=86400
+{"id":5830510,"name":"Elia Hills","email":"EliaHills@gmail.com","gender":"male","status":"active"}
+
+21:56:16.393 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:56:17.872 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:56:18.351 [main] INFO  com.intuit.karate - [print] {
+  "id": 69621704,
+  "name": "Delinda Krajcik Jr.",
+  "email": "Delinda Krajcik Jr.@gmail.com"
+}
+ 
+21:56:18.398 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:56:18.424 [main] INFO  com.intuit.karate - [print] {
+  "id": 361250975,
+  "name": "Dong Sipes",
+  "email": "Dong Sipes@gmail.com",
+  "city": {
+    "name": "kolkata",
+    "zip": 700024
+  }
+}
+ 
+21:56:18.444 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:56:18.500 [main] ERROR com.intuit.karate - classpath:examples/users/datafaker.feature:44
+* def emailValue = getRandomEmail()
+js failed:
+>>>>
+01: getRandomEmail()
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "getRandomEmail" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/users/datafaker.feature:44
+21:59:09.862 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:59:11.275 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:59:11.721 [main] INFO  com.intuit.karate - [print] {
+  "id": 977,
+  "name": "Debbra Effertz",
+  "email": "Debbra Effertz@gmail.com"
+}
+ 
+21:59:11.764 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:59:11.795 [main] INFO  com.intuit.karate - [print] {
+  "id": 600703337,
+  "name": "Cythia Keebler",
+  "email": "Cythia Keebler@gmail.com",
+  "city": {
+    "name": "kolkata",
+    "zip": 700024
+  }
+}
+ 
+21:59:11.828 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:59:11.850 [main] INFO  com.intuit.karate - [print] 225698 
+21:59:11.855 [main] INFO  com.intuit.karate - [print] FlorenciaSchmidtDDS@gmail.com 
+21:59:11.894 [main] ERROR com.intuit.karate - classpath:examples/users/datafaker.feature:47
+* set jsonObjectPayload 
+|	path	|value	|
+|	id	|idValue	|
+|	name	|fullname	|
+|	email	|emailValue	|
+|	city.name	|'kolkata'	|
+|	city.zip	|700024	|
+
+js failed:
+>>>>
+01: fullname
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "fullname" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:examples/users/datafaker.feature:47
+22:05:59.653 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:06:01.113 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:01.705 [main] INFO  com.intuit.karate - [print] {
+  "id": 226226,
+  "name": "Brittaney Walter",
+  "email": "Brittaney Walter@gmail.com"
+}
+ 
+22:06:01.742 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:01.768 [main] INFO  com.intuit.karate - [print] {
+  "id": 73908249,
+  "name": "Carlton Abshire Sr.",
+  "email": "Carlton Abshire Sr.@gmail.com",
+  "city": {
+    "name": "kolkata",
+    "zip": 700024
+  }
+}
+ 
+22:06:01.789 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:01.822 [main] INFO  com.intuit.karate - [print] 512100 
+22:06:01.828 [main] INFO  com.intuit.karate - [print] full name is Weston Adams 
+22:06:01.833 [main] INFO  com.intuit.karate - [print] MargareteWiegand@gmail.com 
+22:06:01.840 [main] INFO  com.intuit.karate - [print] {
+  "id": "512100",
+  "name": "Weston Adams",
+  "email": "MargareteWiegand@gmail.com",
+  "city": {
+    "name": "kolkata",
+    "zip": 700024
+  }
+}
+ 
+23:55:46.011 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:55:47.666 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:55:47.734 [main] INFO  com.intuit.karate - [print] value is devSomeVar 
+23:56:41.428 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:56:42.954 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:56:43.025 [main] INFO  com.intuit.karate - [print] value isdevSomeVar 
+23:58:02.940 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:58:05.207 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:58:05.293 [main] INFO  com.intuit.karate - [print] value is devSomeVar 
+00:20:18.859 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:20:20.757 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:20:20.858 [main] INFO  com.intuit.karate - [print] Details are  raktim 1 true 
+00:20:20.898 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:20:20.913 [main] INFO  com.intuit.karate - [print] Details are  rahul 11 true 
+00:20:20.929 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:20:20.947 [main] INFO  com.intuit.karate - [print] Details are  sarkar 13 false 
+00:29:35.935 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: examples/users/datadriven.feature - extraneous input '\n\n        * ' expecting {<EOF>, SCENARIO, SCENARIO_OUTLINE, TAGS, NEWLINE}
+00:31:16.104 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:31:17.890 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:31:18.026 [main] INFO  com.intuit.karate - [print] Details are  raktim 1 true 
+00:31:18.142 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:31:18.162 [main] INFO  com.intuit.karate - [print] Details are  rahul 11 true 
+00:31:18.192 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:31:18.208 [main] INFO  com.intuit.karate - [print] Details are  sarkar 13 false 
+00:31:18.247 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:31:18.325 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "raktim",
+  "id": 1,
+  "isManager": true
+}
+ 
+00:31:18.354 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:31:18.367 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "rahul",
+  "id": 11,
+  "isManager": true
+}
+ 
+00:31:18.391 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:31:18.397 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": 13,
+  "isManager": false
+}
+ 
+11:06:44.487 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:06:45.965 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:06:46.066 [main] INFO  com.intuit.karate - [print] Details are  raktim 1 true 
+11:06:46.134 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:06:46.145 [main] INFO  com.intuit.karate - [print] Details are  rahul 11 true 
+11:06:46.162 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:06:46.171 [main] INFO  com.intuit.karate - [print] Details are  sarkar 13 false 
+11:06:46.216 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:06:46.247 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "raktim",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:06:46.250 [main] INFO  com.intuit.karate - [print] {
+  "fn": "raktim",
+  "id ": 1,
+  "manager": true
+}
+ 
+11:06:46.251 [main] INFO  com.intuit.karate - [print] 0 
+11:06:46.269 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:06:46.276 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "rahul",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:06:46.277 [main] INFO  com.intuit.karate - [print] {
+  "fn": "rahul",
+  "id ": 11,
+  "manager": true
+}
+ 
+11:06:46.278 [main] INFO  com.intuit.karate - [print] 1 
+11:06:46.290 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:06:46.296 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": false
+}
+ 
+11:06:46.297 [main] INFO  com.intuit.karate - [print] {
+  "fn": "sarkar",
+  "id ": 13,
+  "manager": false
+}
+ 
+11:06:46.298 [main] INFO  com.intuit.karate - [print] 2 
+11:23:43.063 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:23:44.593 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:23:44.699 [main] INFO  com.intuit.karate - [print] Details are  raktim 1 true 
+11:23:44.771 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:23:44.780 [main] INFO  com.intuit.karate - [print] Details are  rahul 11 true 
+11:23:44.803 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:23:44.815 [main] INFO  com.intuit.karate - [print] Details are  sarkar 13 false 
+11:23:44.868 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:23:44.903 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:23:44.908 [main] INFO  com.intuit.karate - [print] {
+  "fn": "#(randomName)",
+  "id ": 1,
+  "manager": true
+}
+ 
+11:23:44.912 [main] INFO  com.intuit.karate - [print] 0 
+11:23:44.926 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:23:44.933 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "rahul",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:23:44.933 [main] INFO  com.intuit.karate - [print] {
+  "fn": "rahul",
+  "id ": 11,
+  "manager": true
+}
+ 
+11:23:44.933 [main] INFO  com.intuit.karate - [print] 1 
+11:23:44.945 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:23:44.948 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": false
+}
+ 
+11:23:44.949 [main] INFO  com.intuit.karate - [print] {
+  "fn": "sarkar",
+  "id ": 13,
+  "manager": false
+}
+ 
+11:23:44.950 [main] INFO  com.intuit.karate - [print] 2 
+11:23:45.005 [main] ERROR c.intuit.karate.core.FeatureRuntime - classpath:examples/users/datadriven.feature[3:51] dynamic expression evaluation failed: read('payloads/MOCK_DATA.json')
+11:25:24.285 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:25:25.800 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:25.901 [main] INFO  com.intuit.karate - [print] Details are  raktim 1 true 
+11:25:25.970 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:25.982 [main] INFO  com.intuit.karate - [print] Details are  rahul 11 true 
+11:25:26.005 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:26.017 [main] INFO  com.intuit.karate - [print] Details are  sarkar 13 false 
+11:25:26.060 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:26.088 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:25:26.090 [main] INFO  com.intuit.karate - [print] {
+  "fn": "#(randomName)",
+  "id ": 1,
+  "manager": true
+}
+ 
+11:25:26.092 [main] INFO  com.intuit.karate - [print] 0 
+11:25:26.111 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:26.123 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "rahul",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:25:26.123 [main] INFO  com.intuit.karate - [print] {
+  "fn": "rahul",
+  "id ": 11,
+  "manager": true
+}
+ 
+11:25:26.123 [main] INFO  com.intuit.karate - [print] 1 
+11:25:26.141 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:26.145 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": false
+}
+ 
+11:25:26.146 [main] INFO  com.intuit.karate - [print] {
+  "fn": "sarkar",
+  "id ": 13,
+  "manager": false
+}
+ 
+11:25:26.147 [main] INFO  com.intuit.karate - [print] 2 
+11:25:26.187 [main] ERROR c.intuit.karate.core.FeatureRuntime - classpath:examples/users/datadriven.feature[3:51] dynamic expression evaluation failed: read('/Users/raktimsarkar/Desktop/KarateAdvancedFramework/src/test/resources/payloads/MOCK_DATA.json')
+11:25:40.423 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:25:41.836 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:41.928 [main] INFO  com.intuit.karate - [print] Details are  raktim 1 true 
+11:25:42.008 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:42.020 [main] INFO  com.intuit.karate - [print] Details are  rahul 11 true 
+11:25:42.042 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:42.055 [main] INFO  com.intuit.karate - [print] Details are  sarkar 13 false 
+11:25:42.101 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:42.127 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:25:42.129 [main] INFO  com.intuit.karate - [print] {
+  "fn": "#(randomName)",
+  "id ": 1,
+  "manager": true
+}
+ 
+11:25:42.130 [main] INFO  com.intuit.karate - [print] 0 
+11:25:42.149 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:42.163 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "rahul",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:25:42.164 [main] INFO  com.intuit.karate - [print] {
+  "fn": "rahul",
+  "id ": 11,
+  "manager": true
+}
+ 
+11:25:42.166 [main] INFO  com.intuit.karate - [print] 1 
+11:25:42.198 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:25:42.202 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": false
+}
+ 
+11:25:42.203 [main] INFO  com.intuit.karate - [print] {
+  "fn": "sarkar",
+  "id ": 13,
+  "manager": false
+}
+ 
+11:25:42.204 [main] INFO  com.intuit.karate - [print] 2 
+11:25:42.246 [main] ERROR c.intuit.karate.core.FeatureRuntime - classpath:examples/users/datadriven.feature[3:51] dynamic expression evaluation failed: read('/Users/raktimsarkar/Desktop/KarateAdvancedFramework/src/test/resources/payloads/MOCK_DATA.json')
+11:27:09.291 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:27:10.731 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:10.833 [main] INFO  com.intuit.karate - [print] Details are  raktim 1 true 
+11:27:10.897 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:10.907 [main] INFO  com.intuit.karate - [print] Details are  rahul 11 true 
+11:27:10.925 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:10.941 [main] INFO  com.intuit.karate - [print] Details are  sarkar 13 false 
+11:27:10.999 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:11.028 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:27:11.032 [main] INFO  com.intuit.karate - [print] {
+  "fn": "#(randomName)",
+  "id ": 1,
+  "manager": true
+}
+ 
+11:27:11.033 [main] INFO  com.intuit.karate - [print] 0 
+11:27:11.053 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:11.061 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "rahul",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:27:11.061 [main] INFO  com.intuit.karate - [print] {
+  "fn": "rahul",
+  "id ": 11,
+  "manager": true
+}
+ 
+11:27:11.062 [main] INFO  com.intuit.karate - [print] 1 
+11:27:11.074 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:27:11.082 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": false
+}
+ 
+11:27:11.083 [main] INFO  com.intuit.karate - [print] {
+  "fn": "sarkar",
+  "id ": 13,
+  "manager": false
+}
+ 
+11:27:11.083 [main] INFO  com.intuit.karate - [print] 2 
+11:27:11.112 [main] ERROR c.intuit.karate.core.FeatureRuntime - classpath:examples/users/datadriven.feature[3:51] dynamic expression evaluation failed: read('file:Users/raktimsarkar/Desktop/KarateAdvancedFramework/src/test/resources/payloads/MOCK_DATA.json')
+11:29:20.016 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:29:21.522 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:29:21.629 [main] INFO  com.intuit.karate - [print] Details are  raktim 1 true 
+11:29:21.781 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:29:21.864 [main] INFO  com.intuit.karate - [print] Details are  rahul 11 true 
+11:29:21.913 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:29:21.942 [main] INFO  com.intuit.karate - [print] Details are  sarkar 13 false 
+11:29:22.010 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:29:22.041 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:29:22.044 [main] INFO  com.intuit.karate - [print] {
+  "fn": "#(randomName)",
+  "id ": 1,
+  "manager": true
+}
+ 
+11:29:22.048 [main] INFO  com.intuit.karate - [print] 0 
+11:29:22.063 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:29:22.069 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "rahul",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:29:22.070 [main] INFO  com.intuit.karate - [print] {
+  "fn": "rahul",
+  "id ": 11,
+  "manager": true
+}
+ 
+11:29:22.070 [main] INFO  com.intuit.karate - [print] 1 
+11:29:22.082 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:29:22.090 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": false
+}
+ 
+11:29:22.091 [main] INFO  com.intuit.karate - [print] {
+  "fn": "sarkar",
+  "id ": 13,
+  "manager": false
+}
+ 
+11:29:22.093 [main] INFO  com.intuit.karate - [print] 2 
+11:29:22.153 [main] ERROR c.intuit.karate.core.FeatureRuntime - classpath:examples/users/datadriven.feature[3:51] dynamic expression evaluation failed: read('Users/raktimsarkar/Desktop/KarateAdvancedFramework/src/test/resources/payloads/MOCK_DATA.json')
+11:30:44.955 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:30:46.442 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:46.541 [main] INFO  com.intuit.karate - [print] Details are  raktim 1 true 
+11:30:46.609 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:46.619 [main] INFO  com.intuit.karate - [print] Details are  rahul 11 true 
+11:30:46.635 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:46.645 [main] INFO  com.intuit.karate - [print] Details are  sarkar 13 false 
+11:30:46.694 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:46.738 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:30:46.740 [main] INFO  com.intuit.karate - [print] {
+  "fn": "#(randomName)",
+  "id ": 1,
+  "manager": true
+}
+ 
+11:30:46.745 [main] INFO  com.intuit.karate - [print] 0 
+11:30:46.774 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:46.783 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "rahul",
+  "id": "<id>",
+  "isManager": true
+}
+ 
+11:30:46.783 [main] INFO  com.intuit.karate - [print] {
+  "fn": "rahul",
+  "id ": 11,
+  "manager": true
+}
+ 
+11:30:46.784 [main] INFO  com.intuit.karate - [print] 1 
+11:30:46.798 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:46.804 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "sarkar",
+  "id": "<id>",
+  "isManager": false
+}
+ 
+11:30:46.805 [main] INFO  com.intuit.karate - [print] {
+  "fn": "sarkar",
+  "id ": 13,
+  "manager": false
+}
+ 
+11:30:46.806 [main] INFO  com.intuit.karate - [print] 2 
+11:30:46.860 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:46.867 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "Johnnie Schaumann",
+  "id": 1,
+  "isManager": false
+}
+ 
+11:30:46.886 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:30:46.895 [main] INFO  com.intuit.karate - [print] {
+  "firstname": "Garrek Nast",
+  "id": 2,
+  "isManager": false
+}
+ 
+12:16:45.862 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:16:47.308 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:32:01.682 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:32:03.165 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:32:03.352 [main] ERROR com.intuit.karate - classpath:examples/users/fuzzymatchers.feature:16
+* match jo.dob == '#regex [0-9]{4}'
+match failed: EQUALS
+  $ | not a string (NUMBER:STRING)
+  1991
+  '#regex [0-9]{4}'
+
+classpath:examples/users/fuzzymatchers.feature:16
+12:33:19.607 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:33:21.000 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:33:21.236 [main] ERROR com.intuit.karate - classpath:examples/users/fuzzymatchers.feature:12
+* match jo.id == 123
+match failed: EQUALS
+  $ | data types don't match (STRING:NUMBER)
+  '123'
+  123
+
+classpath:examples/users/fuzzymatchers.feature:12
+12:34:21.604 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:34:22.959 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:34:23.130 [main] ERROR com.intuit.karate - classpath:examples/users/fuzzymatchers.feature:16
+* match jo.dob == '#regex [0-9]{4}'
+match failed: EQUALS
+  $ | not a string (NUMBER:STRING)
+  1991
+  '#regex [0-9]{4}'
+
+classpath:examples/users/fuzzymatchers.feature:16
+12:36:20.551 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:36:21.913 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:36:22.093 [main] ERROR com.intuit.karate - classpath:examples/users/fuzzymatchers.feature:16
+* match jo.dob == '#regex \\d{4}'
+match failed: EQUALS
+  $ | not a string (NUMBER:STRING)
+  1991
+  '#regex \d{4}'
+
+classpath:examples/users/fuzzymatchers.feature:16
+12:37:44.750 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:37:46.167 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:44:30.574 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:44:32.098 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:44:32.538 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:44:32.582 [main] ERROR com.intuit.karate - classpath:examples/users/fuzzymatchers.feature:35
+* match jo.skills = '#array'
+syntax error, expected '==' for match
+classpath:examples/users/fuzzymatchers.feature:35
+12:45:48.145 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:45:49.568 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:45:49.781 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:45:49.816 [main] ERROR com.intuit.karate - classpath:examples/users/fuzzymatchers.feature:36
+* match jo.skilss == '#[2]'
+match failed: EQUALS
+  $ | actual is not an array (STRING:STRING)
+  '#notpresent'
+  '#[2]'
+
+classpath:examples/users/fuzzymatchers.feature:36
+12:46:49.620 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:46:51.015 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:46:51.232 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:01:03.516 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:01:05.015 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:01:05.245 [main] INFO  com.intuit.karate - karate.env system property was: null 
